@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Member Registration</title>
+</head>
+<body>
+    <center>
+<p>
+    <b>New Member Registration</b>
+</p>
+</center>
+<form>
+<table width="30%" height="70px" align="center">
+    <tr>
+        <td>
+             <input type="text" name="name" placeholder="First Name" title="Please enter your name"/></td>
+        <td>
+            <input type="text" name="Surname" placeholder="Surname" title="Please enter your surname"/></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="email" name="Email" placeholder="Email" title="Please enter your email"/></td>
+        <td>
+            <input type="email" name="Confirm Email" placeholder="Confirm Email" title="Please confirm your email"/></td>
+     </tr>
+     <tr>
+         <td>
+            <input type="password" placeholder="Password" title="Please choose a password"/>
+         </td>
+         <td>
+            <input type="password" placeholder="Confirm Password" title="Please confirm your password"/> 
+         </td>
+     </tr>
+     <tr>
+         <td align="center">
+            <lable>Male</lable>
+            <input type="radio" value="Male" name="c1"/>
+         </td>
+         <td align="center">
+            <label>Female</label>
+            <input type="radio" value="Female" name="c1"/>
+         </td>
+     </tr>
+     <tr>
+         <td>Your City</td>
+         <td>
+            <input list="subject">
+            <datalist id="subject">
+                <option value="London">
+                <option value="Birmingham">
+                <option value="Manchester">
+                <option value="Leeds">
+                <option value="Scarborough">
+                <option value="Liverpool">
+                <option value="Leiceter">
+                <option value="Wolverhamption">
+                <option value="Northampton">
+                <option value="Southampton">
+                <option value="Bath">
+                <option value="Bradford">
+                <option value="Britsol">
+            </datalist>
+        </td>
+    </tr>
+         <tr>
+         <td> Your Industry</td>
+         <td>
+            <select>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Automotive">Automotive</option>
+                <option value="Construction">Construction</option>
+                <option value="Energy">Energy</option>
+                <option value="Financial">Financial</option>
+                <option value="Manufacturing">Manufacturing</option>
+                <option value="Media">Media</option>
+                <option value="Mining">Mining</option>
+                <option value="Retail">Retail</option>
+                <option value="Transport">Transport</option>
+            </select>
+        </td>
+     </tr>
+     <tr>
+        <td>Your Interest</td>
+        <td><label>Photography</label><input type="checkbox" value="photography"/>
+            <label>Video</label><input type="checkbox" value="video"/></td>
+     </tr>
+     <tr>
+        <td align="right"><input type="submit" value="Register"/></td>
+        <td align="left"><input type="reset" value="Clear"/></td>
+    </tr>
+</table>
+</form>
+<br/>
+<center>
+<a href="Login.html">Already Registered?</a>
+</center>
+</body>
+</html>
